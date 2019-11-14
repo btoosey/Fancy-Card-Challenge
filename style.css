@@ -1,0 +1,88 @@
+@import url("components/card.css");
+@import url("components/button.css");
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #F8B232;
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+}
+
+h2, p {
+	font-size: 16px;
+}
+
+p {
+	opacity: 0.5;
+	font-size: 14px;
+}
+
+i {
+	color: orange;
+}
+
+i.disabled {
+	color: lightgrey;
+}
+
+.top {
+  display: flex;
+}
+
+img {
+ height: 160px;
+ width: 160px;
+}
+
+ul {
+  display: inline;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+.image {
+  position: relative;
+}
+
+.fa-heart {
+ position: absolute;
+ top: 5px;
+ left: 5px;
+ color: pink;
+}
+
+.video {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.video:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards img {
+  height: 56px;
+  width: 120px;
+  border-radius: 3px;
+}
+
+.card1 {
+  border: 2px solid #F8B232;
+  border-radius: 5px;
+}
+
+.info {
+}
